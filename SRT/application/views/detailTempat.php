@@ -1,6 +1,6 @@
 <?php $this->load->view('page_header') ?>
 <div style="margin-top: 150px;margin-left: 300px;margin-right: 300px">
-  <div style="width: 800px; height: 400px; border-radius: 10px;background: url(tempat-img-1.png), #C4C4C4;"></div>
+  <div style="width: 800px; height: 400px; border-radius: 10px;, #C4C4C4; "><img src="<?= base_url('assets/img/tempat-img-1.png') ?>" /></div>
   <div style="width: 800px; height: auto; margin-top: 40px; margin-bottom: 50px">
     <?php
     if (!empty($tempat)) {

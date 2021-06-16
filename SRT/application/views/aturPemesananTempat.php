@@ -5,7 +5,7 @@ if (!empty($tempat)) {
     <div style="margin-top: 150px;margin-left: 200px;margin-right: 200px">
       <div class="row" style="background-color: white">
         <div class="col-1">
-          <div class="tempatThumbnail"></div>
+          <div class="tempatThumbnail"><img class="nav-justified" src="<?= base_url('assets/img/daftarSRT.png') ?>"></div>
         </div>
         <div class="col">
 
@@ -49,20 +49,37 @@ if (!empty($tempat)) {
         </div>
       </div>
 
+      <div class="row" style="margin-top: 60px;">
+        <div class="col" style="font-family: Sunflower; font-style: normal; font-weight: bold; font-size: 14px; line-height: 20px; letter-spacing: 0.25px; color: #787878;">Range Tanggal
+        </div>
+      </div>
+
 
       <div class="row" style="margin-top: 30px;">
         <div class="col">
           <div class="row">
             <div class="col">
               <div class="form-group">
-                <label for="namaTempat" style="font-family: Roboto; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px;color: #676767;margin-bottom: 10px; margin-right: 5px">Pilih Tanggal masuk</label>
+                <label for="namaTempat" style="font-family: Roboto; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px;color: #676767;margin-bottom: 10px; margin-right: 5px">Dari Tanggal </label>
                 <input id="mulai" type="date" name="mulai" style="font-family: Sunflower; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; letter-spacing: 0.25px; color: #00BCD4; background-color: white; height: 40px; width: 150px; border-radius: 5px; border:none; padding-left: 22px;border: 3px solid #00BCD4;">
               </div>
             </div>
             <div class="col">
               <div class="form-group">
-                <label for="namaTempat" style="font-family: Roboto; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px;color: #676767;margin-bottom: 10px; margin-right: 5px">Pilih Tanggal keluar</label>
+                <label for="namaTempat" style="font-family: Roboto; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px;color: #676767;margin-bottom: 10px; margin-right: 5px">Sampai Tanggal </label>
                 <input id="keluar" type="date" name="keluar" style="font-family: Sunflower; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; letter-spacing: 0.25px; color: #00BCD4; background-color: white; height: 40px; width: 150px; border-radius: 5px; border:none; padding-left: 22px; border: 3px solid #00BCD4;">
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <label for="namaTempat" style="font-family: Roboto; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px;color: #676767;margin-bottom: 10px; margin-right: 5px">Waktu Awal </label>
+                <input id="jam" type="time" name="jam" style="font-family: Sunflower; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; letter-spacing: 0.25px; color: #00BCD4; background-color: white; height: 40px; width: 150px; border-radius: 5px; border:none; padding-left: 22px; border: 3px solid #00BCD4;">
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group">
+                <label for="namaTempat" style="font-family: Roboto; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px;color: #676767;margin-bottom: 10px; margin-right: 5px">Waktu Akhir </label>
+                <input id="jam akhir" type="time" name="jamakhir" style="font-family: Sunflower; font-style: normal; font-weight: normal; font-size: 14px; line-height: 20px; letter-spacing: 0.25px; color: #00BCD4; background-color: white; height: 40px; width: 150px; border-radius: 5px; border:none; padding-left: 22px; border: 3px solid #00BCD4;">
               </div>
             </div>
             <div class="col ml-auto">
@@ -100,7 +117,7 @@ if (!empty($tempat)) {
       <div class="row">
         <div class="col">
           <div class="form-group">
-            <label for="namaTempat" style="font-family: Roboto; font-style: normal; font-weight: 550; font-size: 14px; line-height: 20px;color: #676767;margin-bottom: 10px; margin-right: 5px">Lama sewa (Hari)</label>
+            <label for="namaTempat" style="font-family: Roboto; font-style: normal; font-weight: 550; font-size: 14px; line-height: 20px;color: #676767;margin-bottom: 10px; margin-right: 5px">Lama sewa (Jam)</label>
             <p id="lamaSewa" name="namatempat" class="form-control" style="border:none; background-color: white">
           </div>
         </div>

@@ -1,7 +1,7 @@
 <?php $this->load->view('page_header_pem') ?>
 <form action="<?= base_url('index.php/pemilikControl/tambahTempat') ?>" method="POST" style="margin-top: 130px; margin-left: 120px; margin-right: 120px">
 	<div class="row">
-		<p style="font-family: Roboto; font-style: normal; font-weight: 600; font-size: 28px; line-height: 20px;color: #00BCD4; margin-bottom: 50">Tempat Seperti Apa yang Ingin Anda Iklankan</p>
+		<p style="font-family: Roboto; font-style: normal; font-weight: 600; font-size: 28px; line-height: 20px;color: #00BCD4; margin-bottom: 50">Lapangan Seperti Apa yang Ingin Anda Iklankan</p>
 	</div>
 	<div class="row" style="width: 500px">
 		<div>
@@ -30,9 +30,9 @@
 			<div class="form-group">
 				<label for="pilihKategori" style="font-family: Roboto; font-style: normal; font-weight: 550; font-size: 14px; line-height: 20px;color: #676767;margin-bottom: 10px">Pilih Kategori Lapangan</label>
 				<select name="kategori" class="form-control" id="pilihKategori">
-					<option value="Rumah/ Villa" selected>Futsal</option>
-					<option value="Working Space">Badminton</option>
-					<option value="Meeting Room">Basket</option>
+					<option value="Futsal" selected>Futsal</option>
+					<option value="Badminton">Badminton</option>
+					<option value="Basket">Basket</option>
 				</select>
 			</div>
 		</div>

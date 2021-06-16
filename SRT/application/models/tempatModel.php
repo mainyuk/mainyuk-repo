@@ -80,7 +80,7 @@ class tempatModel extends CI_Model
         ];
         $this->db->insert('tempat', $data);
         $this->session->set_flashdata('flash', '<div class="alert alert-success" role="alert" style="width:1110px">Selamat Anda berhasil mendaftarkan tempat!</div>');
-        redirect('pemilikControl/lihatTempat');
+        redirect('pemilikControl/index2');
     }
 
     function editTempat($id)

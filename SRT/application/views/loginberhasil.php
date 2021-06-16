@@ -1,6 +1,6 @@
 <?php $this->load->view('page_header') ?>
 <div class="bungkus">
-  <img class="nav-justified" src="<?= base_url('assets/img/bg-main.png') ?>">
+<!-- <img class="nav-justified" src="<?= base_url('assets/img/gggeming.jpg') ?>"> -->
   <div class="example">
     <h2 class="bingung">Bingung Cari <span style="color: #00BCD4;">Lapangan</span> Olahraga?</h2>
     <h4 class="bingung2">Kami siap membantu Anda menemukan lapangan</h5>

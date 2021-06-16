@@ -18,7 +18,7 @@ class pemilikControl extends CI_Controller {
   	}
 
     public function index2(){
-      $this->load->view('loginberhasil');
+      $this->load->view('tes');
     }
 
   	public function editProfile(){
